@@ -1,0 +1,52 @@
+{
+  "project": "Cross-modal JEPA for radar gesture recognition",
+  "diagram_assets": [
+    "jepa-sensor-architecture.svg",
+    "jepa-pretraining-architecture.svg",
+    "jepa-inference-architecture.svg"
+  ],
+  "source_files": {
+    "model.py": "e3318f8c53c37ce91e2ed3b070ac5d4afa8e5f692a1d4d5b73b3805f0746093d",
+    "train.py": "ed4e336c7fab6c200f0dfc35f29a3136178fb8a596c75a9e118e51ccf27bcce9",
+    "probe.py": "934992cf6a79aef1c77bedcbd83cf066f77240577dd317ed7c9f30c4b95cd473",
+    "dataset.py": "51f25dd8a3c97ba0991e7c08d444c6eb5e1765304d3988eb66e5b8e83a3b8d0f"
+  },
+  "verified_details": {
+    "sensor_token_dim": 128,
+    "radar_backbone": "single-channel ResNet-18",
+    "fusion_inputs": [
+      "radar",
+      "IMU",
+      "radar * IMU",
+      "radar - IMU"
+    ],
+    "fusion_mlp": [
+      512,
+      256,
+      128
+    ],
+    "landmark_input_dim": 263,
+    "landmark_mlp": [
+      263,
+      256,
+      128
+    ],
+    "predictor_mlp": [
+      128,
+      256,
+      128
+    ],
+    "forward_loss_weight": 1,
+    "reverse_loss_weight": 0.25,
+    "sigreg_weight": 0.05,
+    "ema_momentum_start": 0.996,
+    "ema_momentum_end": 1,
+    "frames": 30,
+    "classifier_layers": 2,
+    "classifier_heads": 8,
+    "classifier_ffn_dim": 512,
+    "classes": 8,
+    "probe_encoder_frozen": true,
+    "landmarks_at_sensor_probe_inference": false
+  }
+}

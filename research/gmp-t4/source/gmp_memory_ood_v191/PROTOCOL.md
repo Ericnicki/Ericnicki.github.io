@@ -1,0 +1,5 @@
+# Official GMP OOD reporting completion v191
+
+All384trials,3405model inferences and25858controls passed corrected v190audit. All eight independent physical replays (500controls) have zero error. Preserve every frozen source and failed audit.
+
+Original report failed after its first trajectory because the nested trajectory-CSV writer reused the outer memory-CSV writer name, leaving the next task writing to a closed file. Preserve partial outputs under failed_reporting_v187; correct only file/writer variable names in supplemental report. Recompute the original predeclared OOD-only statistics and all six figures from unchanged audited records. No inference, simulation, new policy trial, training or ID evaluation. Bind this supplemental plotting source and all previous sources in the final archive. Deliver official checkpoint metadata, frozen sources, audited raw records, outcome/trajectory/memory CSVs, standalone HTML and PNG/SVG/PDF scientific plots; checkpoint binary remains cached on compute and hash bound.

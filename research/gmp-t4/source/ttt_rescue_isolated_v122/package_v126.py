@@ -1,0 +1,14 @@
+from review import A
+from audit_results import *
+import tarfile
+setup();assert json.loads((OUT/'audit.json').read_text())['status']=='passed';assert json.loads((FITS/'optimizer_audit.json').read_text())['status']=='passed';assert json.loads((CONF/'reset_audit.json').read_text())['status']=='passed';assert (OUT/'rescue_summary_v2.png').is_file();assert json.loads((CONF/'calibration_audit.json').read_text())['status']=='passed';assert json.loads((R/'ttt_rescue_capacity_v125_output/audit.json').read_text())['status']=='passed'
+roots=[O,D,FITS,CONF,OUT,R/'ttt_rescue_v117',R/'ttt_rescue_train_v118',R/'ttt_rescue_isolated_v122',R/'ttt_rescue_fit_v119_output',R/'ttt_rescue_confirm_v120_output',R/'ttt_rescue_capacity_v125_output']
+files=sorted({p for root in roots for p in root.rglob('*') if p.is_file() and '__pycache__' not in p.parts and not p.name.startswith('._') and p.name not in ['archive_manifest.json','archive_receipt.json']})
+for p in [R/'ttt_rescue_pipeline.log',R/'ttt_rescue_postfit.log',R/'ttt_rescue_isolated.log',R/'ttt_rescue_isolated_postfit.log',R/'ttt_rescue_confirm_v123.log',R/'ttt_rescue_capacity.log',R/'ttt_rescue_train_scores.log',R/'ttt_rescue_postconfirm.log',R/'ttt_rescue_postconfirm_v124.log']:
+ if p.exists():files.append(p)
+manifest={str(p.relative_to(R)):sha(p) for p in files};inherited={str(p.relative_to(R)):sha(p) for p in (R/'ttt_joint_1000_v115').glob('*.py')};inherited['endpoint_currentnode_runtime_v2/runtime.sh']=sha(R/'endpoint_currentnode_runtime_v2/runtime.sh')
+write(OUT/'archive_manifest.json',dict(files=manifest,inherited_sources=inherited,parent_checkpoints=HASHES,source_sha256=sha(Path(__file__))))
+archive=R/'ttt_rescue_v117_v126.tar.gz'
+with tarfile.open(archive,'w:gz',compresslevel=3) as tf:
+ for p in files+[OUT/'archive_manifest.json']:tf.add(p,arcname=str(p.relative_to(R)),recursive=False)
+write(OUT/'archive_receipt.json',dict(path=str(archive),sha256=sha(archive),bytes=archive.stat().st_size,members=len(files)+1));print((OUT/'archive_receipt.json').read_text())

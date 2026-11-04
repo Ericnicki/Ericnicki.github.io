@@ -1,0 +1,12 @@
+{
+  "new_arch/v101_framewise_bundled_ema/README.md": "fd15ad6fd76dcf06df8713c4396cef35fe14c9bd71a3ca85fb3f5b815af3d4de",
+  "new_arch/v101_framewise_bundled_ema/common.py": "d9198c874d1b8a1c03ef78447d6696a44271270d97cbba826c3c8e807ee57104",
+  "new_arch/v101_framewise_bundled_ema/dataset.py": "51f25dd8a3c97ba0991e7c08d444c6eb5e1765304d3988eb66e5b8e83a3b8d0f",
+  "new_arch/v101_framewise_bundled_ema/model.py": "e3318f8c53c37ce91e2ed3b070ac5d4afa8e5f692a1d4d5b73b3805f0746093d",
+  "new_arch/v101_framewise_bundled_ema/train.py": "ed4e336c7fab6c200f0dfc35f29a3136178fb8a596c75a9e118e51ccf27bcce9",
+  "new_arch/v101_framewise_bundled_ema/probe.py": "934992cf6a79aef1c77bedcbd83cf066f77240577dd317ed7c9f30c4b95cd473",
+  "new_arch/v103_radar_cnn_transformer_direct/README.md": "07b2312a325470e24cab2c6b71a9048bc01f493395714dc80fb3578bd3c60f87",
+  "new_arch/v103_radar_cnn_transformer_direct/dataset.py": "13599e92475a7abaa7159708a1f3dbe7156fbaa83671941ad802319db0ccd780",
+  "new_arch/v103_radar_cnn_transformer_direct/model.py": "a628cf456e9dcfb722724daed37d9476874e48cfd7e0124037e1d31da1e0f946",
+  "new_arch/v103_radar_cnn_transformer_direct/train.py": "140573cd38b6ef2cd211147d5c67d6864c2ea2e04339cec98fb0d0205d175b2c"
+}

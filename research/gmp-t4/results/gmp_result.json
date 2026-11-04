@@ -1,0 +1,3047 @@
+{
+  "status": "completed",
+  "primary": "T2\u201312",
+  "tasks": 32,
+  "new_policy_slots": 384,
+  "ID_tasks": 0,
+  "optimizer_updates": 0,
+  "checkpoint_sha256": "ff358946f65e559a8f8b677e0df2606f1ae1bf78221ad3b4d0c7ba505e3ebcc1",
+  "stats": {
+    "low": {
+      "gmp": {
+        "primary": {
+          "attempted": 176,
+          "judged": 176,
+          "censors": 0,
+          "successes": 0,
+          "success_rate": 0.0,
+          "judged_success_rate": 0.0,
+          "mean_G": -7.749956659296479
+        },
+        "all12": {
+          "attempted": 192,
+          "judged": 192,
+          "censors": 0,
+          "successes": 0,
+          "success_rate": 0.0,
+          "judged_success_rate": 0.0,
+          "mean_G": -7.902879777018441
+        },
+        "by_trial": [
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 0,
+            "success_rate": 0.0,
+            "judged_success_rate": 0.0,
+            "mean_G": -9.585034071960017
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 0,
+            "success_rate": 0.0,
+            "judged_success_rate": 0.0,
+            "mean_G": -8.823841936196615
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 0,
+            "success_rate": 0.0,
+            "judged_success_rate": 0.0,
+            "mean_G": -7.150155019414723
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 0,
+            "success_rate": 0.0,
+            "judged_success_rate": 0.0,
+            "mean_G": -7.378411216818915
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 0,
+            "success_rate": 0.0,
+            "judged_success_rate": 0.0,
+            "mean_G": -7.315091552517593
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 0,
+            "success_rate": 0.0,
+            "judged_success_rate": 0.0,
+            "mean_G": -7.6557553696625416
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 0,
+            "success_rate": 0.0,
+            "judged_success_rate": 0.0,
+            "mean_G": -8.031869012606213
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 0,
+            "success_rate": 0.0,
+            "judged_success_rate": 0.0,
+            "mean_G": -8.258549778801726
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 0,
+            "success_rate": 0.0,
+            "judged_success_rate": 0.0,
+            "mean_G": -7.497545567675537
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 0,
+            "success_rate": 0.0,
+            "judged_success_rate": 0.0,
+            "mean_G": -7.493716041518532
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 0,
+            "success_rate": 0.0,
+            "judged_success_rate": 0.0,
+            "mean_G": -7.7535193652776275
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 0,
+            "success_rate": 0.0,
+            "judged_success_rate": 0.0,
+            "mean_G": -7.891068391771246
+          }
+        ],
+        "segments": {
+          "T2-6": {
+            "attempted": 80,
+            "judged": 80,
+            "censors": 0,
+            "successes": 0,
+            "success_rate": 0.0,
+            "judged_success_rate": 0.0,
+            "mean_G": -7.664651018922077
+          },
+          "T7-12": {
+            "attempted": 96,
+            "judged": 96,
+            "censors": 0,
+            "successes": 0,
+            "success_rate": 0.0,
+            "judged_success_rate": 0.0,
+            "mean_G": -7.821044692941814
+          }
+        }
+      },
+      "swap": {
+        "primary": {
+          "attempted": 176,
+          "judged": 176,
+          "censors": 0,
+          "successes": 24,
+          "success_rate": 0.13636363636363635,
+          "judged_success_rate": 0.13636363636363635,
+          "mean_G": -4.518699315123118
+        },
+        "all12": {
+          "attempted": 192,
+          "judged": 192,
+          "censors": 0,
+          "successes": 24,
+          "success_rate": 0.125,
+          "judged_success_rate": 0.125,
+          "mean_G": -4.929320522006566
+        },
+        "by_trial": [
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 0,
+            "success_rate": 0.0,
+            "judged_success_rate": 0.0,
+            "mean_G": -9.446153797724488
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 2,
+            "success_rate": 0.125,
+            "judged_success_rate": 0.125,
+            "mean_G": -6.455256672294787
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 3,
+            "success_rate": 0.1875,
+            "judged_success_rate": 0.1875,
+            "mean_G": -4.203962709038829
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 3,
+            "success_rate": 0.1875,
+            "judged_success_rate": 0.1875,
+            "mean_G": -3.987946165093367
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 4,
+            "success_rate": 0.25,
+            "judged_success_rate": 0.25,
+            "mean_G": -4.244382612737381
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 2,
+            "success_rate": 0.125,
+            "judged_success_rate": 0.125,
+            "mean_G": -4.207627902400407
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 1,
+            "success_rate": 0.0625,
+            "judged_success_rate": 0.0625,
+            "mean_G": -5.480774103190987
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 2,
+            "success_rate": 0.125,
+            "judged_success_rate": 0.125,
+            "mean_G": -4.142428853689903
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 2,
+            "success_rate": 0.125,
+            "judged_success_rate": 0.125,
+            "mean_G": -4.249705248435354
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 2,
+            "success_rate": 0.125,
+            "judged_success_rate": 0.125,
+            "mean_G": -4.091741926528295
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 1,
+            "success_rate": 0.0625,
+            "judged_success_rate": 0.0625,
+            "mean_G": -4.362415076030361
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 2,
+            "success_rate": 0.125,
+            "judged_success_rate": 0.125,
+            "mean_G": -4.27945119691462
+          }
+        ],
+        "segments": {
+          "T2-6": {
+            "attempted": 80,
+            "judged": 80,
+            "censors": 0,
+            "successes": 14,
+            "success_rate": 0.175,
+            "judged_success_rate": 0.175,
+            "mean_G": -4.619835212312955
+          },
+          "T7-12": {
+            "attempted": 96,
+            "judged": 96,
+            "censors": 0,
+            "successes": 10,
+            "success_rate": 0.10416666666666667,
+            "judged_success_rate": 0.10416666666666667,
+            "mean_G": -4.4344194007982525
+          }
+        }
+      },
+      "joint": {
+        "primary": {
+          "attempted": 176,
+          "judged": 176,
+          "censors": 0,
+          "successes": 19,
+          "success_rate": 0.10795454545454546,
+          "judged_success_rate": 0.10795454545454546,
+          "mean_G": -4.405776805184619
+        },
+        "all12": {
+          "attempted": 192,
+          "judged": 192,
+          "censors": 0,
+          "successes": 19,
+          "success_rate": 0.09895833333333333,
+          "judged_success_rate": 0.09895833333333333,
+          "mean_G": -4.806610483440697
+        },
+        "by_trial": [
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 0,
+            "success_rate": 0.0,
+            "judged_success_rate": 0.0,
+            "mean_G": -9.215780944257572
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 1,
+            "success_rate": 0.0625,
+            "judged_success_rate": 0.0625,
+            "mean_G": -4.963330920834707
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 4,
+            "success_rate": 0.25,
+            "judged_success_rate": 0.25,
+            "mean_G": -4.120430201441058
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 3,
+            "success_rate": 0.1875,
+            "judged_success_rate": 0.1875,
+            "mean_G": -3.645706111779935
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 2,
+            "success_rate": 0.125,
+            "judged_success_rate": 0.125,
+            "mean_G": -4.297270773979564
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 0,
+            "success_rate": 0.0,
+            "judged_success_rate": 0.0,
+            "mean_G": -4.4874216299721095
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 2,
+            "success_rate": 0.125,
+            "judged_success_rate": 0.125,
+            "mean_G": -4.804975311564759
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 1,
+            "success_rate": 0.0625,
+            "judged_success_rate": 0.0625,
+            "mean_G": -4.425282199683307
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 1,
+            "success_rate": 0.0625,
+            "judged_success_rate": 0.0625,
+            "mean_G": -4.540382420635796
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 2,
+            "success_rate": 0.125,
+            "judged_success_rate": 0.125,
+            "mean_G": -4.444218200308536
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 3,
+            "success_rate": 0.1875,
+            "judged_success_rate": 0.1875,
+            "mean_G": -4.119922253635103
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 0,
+            "success_rate": 0.0,
+            "judged_success_rate": 0.0,
+            "mean_G": -4.614604833195929
+          }
+        ],
+        "segments": {
+          "T2-6": {
+            "attempted": 80,
+            "judged": 80,
+            "censors": 0,
+            "successes": 10,
+            "success_rate": 0.125,
+            "judged_success_rate": 0.125,
+            "mean_G": -4.302831927601474
+          },
+          "T7-12": {
+            "attempted": 96,
+            "judged": 96,
+            "censors": 0,
+            "successes": 9,
+            "success_rate": 0.09375,
+            "judged_success_rate": 0.09375,
+            "mean_G": -4.491564203170572
+          }
+        }
+      },
+      "prediction_only": {
+        "primary": {
+          "attempted": 176,
+          "judged": 176,
+          "censors": 0,
+          "successes": 18,
+          "success_rate": 0.10227272727272728,
+          "judged_success_rate": 0.10227272727272728,
+          "mean_G": -4.5855571413392875
+        },
+        "all12": {
+          "attempted": 192,
+          "judged": 192,
+          "censors": 0,
+          "successes": 18,
+          "success_rate": 0.09375,
+          "judged_success_rate": 0.09375,
+          "mean_G": -4.974208694120693
+        },
+        "by_trial": [
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 0,
+            "success_rate": 0.0,
+            "judged_success_rate": 0.0,
+            "mean_G": -9.249375774716153
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 0,
+            "success_rate": 0.0,
+            "judged_success_rate": 0.0,
+            "mean_G": -5.705370575850587
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 3,
+            "success_rate": 0.1875,
+            "judged_success_rate": 0.1875,
+            "mean_G": -4.380762370319996
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 1,
+            "success_rate": 0.0625,
+            "judged_success_rate": 0.0625,
+            "mean_G": -4.62434426013351
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 1,
+            "success_rate": 0.0625,
+            "judged_success_rate": 0.0625,
+            "mean_G": -4.515374081614641
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 1,
+            "success_rate": 0.0625,
+            "judged_success_rate": 0.0625,
+            "mean_G": -4.646384574556947
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 3,
+            "success_rate": 0.1875,
+            "judged_success_rate": 0.1875,
+            "mean_G": -3.805211883942884
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 1,
+            "success_rate": 0.0625,
+            "judged_success_rate": 0.0625,
+            "mean_G": -4.521764057890103
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 2,
+            "success_rate": 0.125,
+            "judged_success_rate": 0.125,
+            "mean_G": -4.320384964051091
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 2,
+            "success_rate": 0.125,
+            "judged_success_rate": 0.125,
+            "mean_G": -4.8932421945993045
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 2,
+            "success_rate": 0.125,
+            "judged_success_rate": 0.125,
+            "mean_G": -4.510955703565546
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 2,
+            "success_rate": 0.125,
+            "judged_success_rate": 0.125,
+            "mean_G": -4.517333888207555
+          }
+        ],
+        "segments": {
+          "T2-6": {
+            "attempted": 80,
+            "judged": 80,
+            "censors": 0,
+            "successes": 6,
+            "success_rate": 0.075,
+            "judged_success_rate": 0.075,
+            "mean_G": -4.774447172495137
+          },
+          "T7-12": {
+            "attempted": 96,
+            "judged": 96,
+            "censors": 0,
+            "successes": 12,
+            "success_rate": 0.125,
+            "judged_success_rate": 0.125,
+            "mean_G": -4.428148782042748
+          }
+        }
+      },
+      "adaptive": {
+        "primary": {
+          "attempted": 176,
+          "judged": 176,
+          "censors": 0,
+          "successes": 16,
+          "success_rate": 0.09090909090909091,
+          "judged_success_rate": 0.09090909090909091,
+          "mean_G": -4.757186854518031
+        },
+        "all12": {
+          "attempted": 192,
+          "judged": 192,
+          "censors": 0,
+          "successes": 16,
+          "success_rate": 0.08333333333333333,
+          "judged_success_rate": 0.08333333333333333,
+          "mean_G": -5.128270713802499
+        },
+        "by_trial": [
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 0,
+            "success_rate": 0.0,
+            "judged_success_rate": 0.0,
+            "mean_G": -9.210193165931639
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 1,
+            "success_rate": 0.0625,
+            "judged_success_rate": 0.0625,
+            "mean_G": -5.284621069529917
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 1,
+            "success_rate": 0.0625,
+            "judged_success_rate": 0.0625,
+            "mean_G": -4.67930115028074
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 1,
+            "success_rate": 0.0625,
+            "judged_success_rate": 0.0625,
+            "mean_G": -4.416644697997117
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 1,
+            "success_rate": 0.0625,
+            "judged_success_rate": 0.0625,
+            "mean_G": -5.078791696386997
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 0,
+            "success_rate": 0.0,
+            "judged_success_rate": 0.0,
+            "mean_G": -5.210070011021522
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 3,
+            "success_rate": 0.1875,
+            "judged_success_rate": 0.1875,
+            "mean_G": -4.390118843454955
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 2,
+            "success_rate": 0.125,
+            "judged_success_rate": 0.125,
+            "mean_G": -4.902824323642296
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 0,
+            "success_rate": 0.0,
+            "judged_success_rate": 0.0,
+            "mean_G": -5.256096181458592
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 2,
+            "success_rate": 0.125,
+            "judged_success_rate": 0.125,
+            "mean_G": -4.442915166834999
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 2,
+            "success_rate": 0.125,
+            "judged_success_rate": 0.125,
+            "mean_G": -4.700277655246689
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 3,
+            "success_rate": 0.1875,
+            "judged_success_rate": 0.1875,
+            "mean_G": -3.967394603844521
+          }
+        ],
+        "segments": {
+          "T2-6": {
+            "attempted": 80,
+            "judged": 80,
+            "censors": 0,
+            "successes": 4,
+            "success_rate": 0.05,
+            "judged_success_rate": 0.05,
+            "mean_G": -4.933885725043259
+          },
+          "T7-12": {
+            "attempted": 96,
+            "judged": 96,
+            "censors": 0,
+            "successes": 12,
+            "success_rate": 0.125,
+            "judged_success_rate": 0.125,
+            "mean_G": -4.609937795747009
+          }
+        }
+      },
+      "aligned": {
+        "primary": {
+          "attempted": 176,
+          "judged": 176,
+          "censors": 0,
+          "successes": 15,
+          "success_rate": 0.08522727272727272,
+          "judged_success_rate": 0.08522727272727272,
+          "mean_G": -4.724816338046166
+        },
+        "all12": {
+          "attempted": 192,
+          "judged": 192,
+          "censors": 0,
+          "successes": 15,
+          "success_rate": 0.078125,
+          "judged_success_rate": 0.078125,
+          "mean_G": -5.099008791015134
+        },
+        "by_trial": [
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 0,
+            "success_rate": 0.0,
+            "judged_success_rate": 0.0,
+            "mean_G": -9.215125773673773
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 0,
+            "success_rate": 0.0,
+            "judged_success_rate": 0.0,
+            "mean_G": -5.833013686431717
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 5,
+            "success_rate": 0.3125,
+            "judged_success_rate": 0.3125,
+            "mean_G": -3.5150130609516825
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 3,
+            "success_rate": 0.1875,
+            "judged_success_rate": 0.1875,
+            "mean_G": -3.977035217284156
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 2,
+            "success_rate": 0.125,
+            "judged_success_rate": 0.125,
+            "mean_G": -4.555362248236784
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 1,
+            "success_rate": 0.0625,
+            "judged_success_rate": 0.0625,
+            "mean_G": -4.452475398636269
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 1,
+            "success_rate": 0.0625,
+            "judged_success_rate": 0.0625,
+            "mean_G": -4.822624681137066
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 1,
+            "success_rate": 0.0625,
+            "judged_success_rate": 0.0625,
+            "mean_G": -5.808630678213918
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 0,
+            "success_rate": 0.0,
+            "judged_success_rate": 0.0,
+            "mean_G": -4.933546449560723
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 1,
+            "success_rate": 0.0625,
+            "judged_success_rate": 0.0625,
+            "mean_G": -4.901682623688043
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 1,
+            "success_rate": 0.0625,
+            "judged_success_rate": 0.0625,
+            "mean_G": -4.411473131307179
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 0,
+            "success_rate": 0.0,
+            "judged_success_rate": 0.0,
+            "mean_G": -4.762122543060286
+          }
+        ],
+        "segments": {
+          "T2-6": {
+            "attempted": 80,
+            "judged": 80,
+            "censors": 0,
+            "successes": 11,
+            "success_rate": 0.1375,
+            "judged_success_rate": 0.1375,
+            "mean_G": -4.466579922308121
+          },
+          "T7-12": {
+            "attempted": 96,
+            "judged": 96,
+            "censors": 0,
+            "successes": 4,
+            "success_rate": 0.041666666666666664,
+            "judged_success_rate": 0.041666666666666664,
+            "mean_G": -4.940013351161203
+          }
+        }
+      }
+    },
+    "high": {
+      "gmp": {
+        "primary": {
+          "attempted": 176,
+          "judged": 176,
+          "censors": 0,
+          "successes": 0,
+          "success_rate": 0.0,
+          "judged_success_rate": 0.0,
+          "mean_G": -4.780563216618208
+        },
+        "all12": {
+          "attempted": 192,
+          "judged": 192,
+          "censors": 0,
+          "successes": 0,
+          "success_rate": 0.0,
+          "judged_success_rate": 0.0,
+          "mean_G": -4.862937648018733
+        },
+        "by_trial": [
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 0,
+            "success_rate": 0.0,
+            "judged_success_rate": 0.0,
+            "mean_G": -5.769056393424518
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 0,
+            "success_rate": 0.0,
+            "judged_success_rate": 0.0,
+            "mean_G": -5.539960124909689
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 0,
+            "success_rate": 0.0,
+            "judged_success_rate": 0.0,
+            "mean_G": -4.229554688798771
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 0,
+            "success_rate": 0.0,
+            "judged_success_rate": 0.0,
+            "mean_G": -4.483731391652852
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 0,
+            "success_rate": 0.0,
+            "judged_success_rate": 0.0,
+            "mean_G": -3.9402582194015645
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 0,
+            "success_rate": 0.0,
+            "judged_success_rate": 0.0,
+            "mean_G": -5.1046854213100605
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 0,
+            "success_rate": 0.0,
+            "judged_success_rate": 0.0,
+            "mean_G": -4.571291500172746
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 0,
+            "success_rate": 0.0,
+            "judged_success_rate": 0.0,
+            "mean_G": -4.24219007391693
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 0,
+            "success_rate": 0.0,
+            "judged_success_rate": 0.0,
+            "mean_G": -5.529032099663363
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 0,
+            "success_rate": 0.0,
+            "judged_success_rate": 0.0,
+            "mean_G": -5.191511786532789
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 0,
+            "success_rate": 0.0,
+            "judged_success_rate": 0.0,
+            "mean_G": -4.945399362591194
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 0,
+            "success_rate": 0.0,
+            "judged_success_rate": 0.0,
+            "mean_G": -4.808580713850324
+          }
+        ],
+        "segments": {
+          "T2-6": {
+            "attempted": 80,
+            "judged": 80,
+            "censors": 0,
+            "successes": 0,
+            "success_rate": 0.0,
+            "judged_success_rate": 0.0,
+            "mean_G": -4.659637969214588
+          },
+          "T7-12": {
+            "attempted": 96,
+            "judged": 96,
+            "censors": 0,
+            "successes": 0,
+            "success_rate": 0.0,
+            "judged_success_rate": 0.0,
+            "mean_G": -4.8813342561212245
+          }
+        }
+      },
+      "swap": {
+        "primary": {
+          "attempted": 176,
+          "judged": 176,
+          "censors": 0,
+          "successes": 66,
+          "success_rate": 0.375,
+          "judged_success_rate": 0.375,
+          "mean_G": -1.562405816969832
+        },
+        "all12": {
+          "attempted": 192,
+          "judged": 192,
+          "censors": 0,
+          "successes": 66,
+          "success_rate": 0.34375,
+          "judged_success_rate": 0.34375,
+          "mean_G": -1.8077588967310287
+        },
+        "by_trial": [
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 0,
+            "success_rate": 0.0,
+            "judged_success_rate": 0.0,
+            "mean_G": -4.506642774104196
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 2,
+            "success_rate": 0.125,
+            "judged_success_rate": 0.125,
+            "mean_G": -2.882645902799493
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 5,
+            "success_rate": 0.3125,
+            "judged_success_rate": 0.3125,
+            "mean_G": -2.0565264814139534
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 6,
+            "success_rate": 0.375,
+            "judged_success_rate": 0.375,
+            "mean_G": -1.784616580112478
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 6,
+            "success_rate": 0.375,
+            "judged_success_rate": 0.375,
+            "mean_G": -1.560807374992143
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 6,
+            "success_rate": 0.375,
+            "judged_success_rate": 0.375,
+            "mean_G": -1.5126250958104377
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 7,
+            "success_rate": 0.4375,
+            "judged_success_rate": 0.4375,
+            "mean_G": -1.3391732384818336
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 7,
+            "success_rate": 0.4375,
+            "judged_success_rate": 0.4375,
+            "mean_G": -1.2932806799959544
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 7,
+            "success_rate": 0.4375,
+            "judged_success_rate": 0.4375,
+            "mean_G": -1.235193593542874
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 7,
+            "success_rate": 0.4375,
+            "judged_success_rate": 0.4375,
+            "mean_G": -1.1864178172221114
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 7,
+            "success_rate": 0.4375,
+            "judged_success_rate": 0.4375,
+            "mean_G": -1.1488461795477112
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 6,
+            "success_rate": 0.375,
+            "judged_success_rate": 0.375,
+            "mean_G": -1.1863310427491596
+          }
+        ],
+        "segments": {
+          "T2-6": {
+            "attempted": 80,
+            "judged": 80,
+            "censors": 0,
+            "successes": 25,
+            "success_rate": 0.3125,
+            "judged_success_rate": 0.3125,
+            "mean_G": -1.959444287025701
+          },
+          "T7-12": {
+            "attempted": 96,
+            "judged": 96,
+            "censors": 0,
+            "successes": 41,
+            "success_rate": 0.4270833333333333,
+            "judged_success_rate": 0.4270833333333333,
+            "mean_G": -1.2315404252566073
+          }
+        }
+      },
+      "joint": {
+        "primary": {
+          "attempted": 176,
+          "judged": 176,
+          "censors": 0,
+          "successes": 66,
+          "success_rate": 0.375,
+          "judged_success_rate": 0.375,
+          "mean_G": -1.337207146378764
+        },
+        "all12": {
+          "attempted": 192,
+          "judged": 192,
+          "censors": 0,
+          "successes": 66,
+          "success_rate": 0.34375,
+          "judged_success_rate": 0.34375,
+          "mean_G": -1.6419351212742546
+        },
+        "by_trial": [
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 0,
+            "success_rate": 0.0,
+            "judged_success_rate": 0.0,
+            "mean_G": -4.993942845124648
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 2,
+            "success_rate": 0.125,
+            "judged_success_rate": 0.125,
+            "mean_G": -2.7501202512407064
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 5,
+            "success_rate": 0.3125,
+            "judged_success_rate": 0.3125,
+            "mean_G": -1.7827967287703093
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 4,
+            "success_rate": 0.25,
+            "judged_success_rate": 0.25,
+            "mean_G": -1.5771033540832016
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 6,
+            "success_rate": 0.375,
+            "judged_success_rate": 0.375,
+            "mean_G": -1.403083238315281
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 7,
+            "success_rate": 0.4375,
+            "judged_success_rate": 0.4375,
+            "mean_G": -1.14892839534246
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 7,
+            "success_rate": 0.4375,
+            "judged_success_rate": 0.4375,
+            "mean_G": -1.119119710603342
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 7,
+            "success_rate": 0.4375,
+            "judged_success_rate": 0.4375,
+            "mean_G": -1.0388891323176284
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 7,
+            "success_rate": 0.4375,
+            "judged_success_rate": 0.4375,
+            "mean_G": -1.0115568127059122
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 7,
+            "success_rate": 0.4375,
+            "judged_success_rate": 0.4375,
+            "mean_G": -0.9581728311253932
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 7,
+            "success_rate": 0.4375,
+            "judged_success_rate": 0.4375,
+            "mean_G": -0.9612787997954435
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 7,
+            "success_rate": 0.4375,
+            "judged_success_rate": 0.4375,
+            "mean_G": -0.9582293558667264
+          }
+        ],
+        "segments": {
+          "T2-6": {
+            "attempted": 80,
+            "judged": 80,
+            "censors": 0,
+            "successes": 24,
+            "success_rate": 0.3,
+            "judged_success_rate": 0.3,
+            "mean_G": -1.732406393550392
+          },
+          "T7-12": {
+            "attempted": 96,
+            "judged": 96,
+            "censors": 0,
+            "successes": 42,
+            "success_rate": 0.4375,
+            "judged_success_rate": 0.4375,
+            "mean_G": -1.0078744404024074
+          }
+        }
+      },
+      "prediction_only": {
+        "primary": {
+          "attempted": 176,
+          "judged": 176,
+          "censors": 0,
+          "successes": 64,
+          "success_rate": 0.36363636363636365,
+          "judged_success_rate": 0.36363636363636365,
+          "mean_G": -1.3781095927380946
+        },
+        "all12": {
+          "attempted": 192,
+          "judged": 192,
+          "censors": 0,
+          "successes": 64,
+          "success_rate": 0.3333333333333333,
+          "judged_success_rate": 0.3333333333333333,
+          "mean_G": -1.64279411084247
+        },
+        "by_trial": [
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 0,
+            "success_rate": 0.0,
+            "judged_success_rate": 0.0,
+            "mean_G": -4.554323809990604
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 0,
+            "success_rate": 0.0,
+            "judged_success_rate": 0.0,
+            "mean_G": -2.96036185864258
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 5,
+            "success_rate": 0.3125,
+            "judged_success_rate": 0.3125,
+            "mean_G": -2.0050925781103435
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 5,
+            "success_rate": 0.3125,
+            "judged_success_rate": 0.3125,
+            "mean_G": -1.5897489545798553
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 6,
+            "success_rate": 0.375,
+            "judged_success_rate": 0.375,
+            "mean_G": -1.3428304264378668
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 6,
+            "success_rate": 0.375,
+            "judged_success_rate": 0.375,
+            "mean_G": -1.2038004303054062
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 7,
+            "success_rate": 0.4375,
+            "judged_success_rate": 0.4375,
+            "mean_G": -1.0318663214529518
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 7,
+            "success_rate": 0.4375,
+            "judged_success_rate": 0.4375,
+            "mean_G": -1.0597010446146797
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 7,
+            "success_rate": 0.4375,
+            "judged_success_rate": 0.4375,
+            "mean_G": -1.0136467720127254
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 7,
+            "success_rate": 0.4375,
+            "judged_success_rate": 0.4375,
+            "mean_G": -1.0108725259010893
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 7,
+            "success_rate": 0.4375,
+            "judged_success_rate": 0.4375,
+            "mean_G": -0.9942185440304577
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 7,
+            "success_rate": 0.4375,
+            "judged_success_rate": 0.4375,
+            "mean_G": -0.947066064031084
+          }
+        ],
+        "segments": {
+          "T2-6": {
+            "attempted": 80,
+            "judged": 80,
+            "censors": 0,
+            "successes": 22,
+            "success_rate": 0.275,
+            "judged_success_rate": 0.275,
+            "mean_G": -1.8203668496152106
+          },
+          "T7-12": {
+            "attempted": 96,
+            "judged": 96,
+            "censors": 0,
+            "successes": 42,
+            "success_rate": 0.4375,
+            "judged_success_rate": 0.4375,
+            "mean_G": -1.0095618786738312
+          }
+        }
+      },
+      "adaptive": {
+        "primary": {
+          "attempted": 176,
+          "judged": 176,
+          "censors": 0,
+          "successes": 63,
+          "success_rate": 0.35795454545454547,
+          "judged_success_rate": 0.35795454545454547,
+          "mean_G": -1.3927767576620789
+        },
+        "all12": {
+          "attempted": 192,
+          "judged": 192,
+          "censors": 0,
+          "successes": 63,
+          "success_rate": 0.328125,
+          "judged_success_rate": 0.328125,
+          "mean_G": -1.6639707039654699
+        },
+        "by_trial": [
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 0,
+            "success_rate": 0.0,
+            "judged_success_rate": 0.0,
+            "mean_G": -4.64710411330277
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 0,
+            "success_rate": 0.0,
+            "judged_success_rate": 0.0,
+            "mean_G": -2.9701055053115457
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 5,
+            "success_rate": 0.3125,
+            "judged_success_rate": 0.3125,
+            "mean_G": -2.018557413174361
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 5,
+            "success_rate": 0.3125,
+            "judged_success_rate": 0.3125,
+            "mean_G": -1.655480050115616
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 6,
+            "success_rate": 0.375,
+            "judged_success_rate": 0.375,
+            "mean_G": -1.3839549636365909
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 5,
+            "success_rate": 0.3125,
+            "judged_success_rate": 0.3125,
+            "mean_G": -1.2240005646912318
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 7,
+            "success_rate": 0.4375,
+            "judged_success_rate": 0.4375,
+            "mean_G": -1.0783391500631052
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 7,
+            "success_rate": 0.4375,
+            "judged_success_rate": 0.4375,
+            "mean_G": -1.0166218730016174
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 7,
+            "success_rate": 0.4375,
+            "judged_success_rate": 0.4375,
+            "mean_G": -1.0238504830688342
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 7,
+            "success_rate": 0.4375,
+            "judged_success_rate": 0.4375,
+            "mean_G": -0.9922632083396106
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 7,
+            "success_rate": 0.4375,
+            "judged_success_rate": 0.4375,
+            "mean_G": -1.0254510784287993
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 7,
+            "success_rate": 0.4375,
+            "judged_success_rate": 0.4375,
+            "mean_G": -0.931920044451554
+          }
+        ],
+        "segments": {
+          "T2-6": {
+            "attempted": 80,
+            "judged": 80,
+            "censors": 0,
+            "successes": 21,
+            "success_rate": 0.2625,
+            "judged_success_rate": 0.2625,
+            "mean_G": -1.8504196993858693
+          },
+          "T7-12": {
+            "attempted": 96,
+            "judged": 96,
+            "censors": 0,
+            "successes": 42,
+            "success_rate": 0.4375,
+            "judged_success_rate": 0.4375,
+            "mean_G": -1.01140763955892
+          }
+        }
+      },
+      "aligned": {
+        "primary": {
+          "attempted": 176,
+          "judged": 176,
+          "censors": 0,
+          "successes": 64,
+          "success_rate": 0.36363636363636365,
+          "judged_success_rate": 0.36363636363636365,
+          "mean_G": -1.3972438139441636
+        },
+        "all12": {
+          "attempted": 192,
+          "judged": 192,
+          "censors": 0,
+          "successes": 64,
+          "success_rate": 0.3333333333333333,
+          "judged_success_rate": 0.3333333333333333,
+          "mean_G": -1.6613124518333129
+        },
+        "by_trial": [
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 0,
+            "success_rate": 0.0,
+            "judged_success_rate": 0.0,
+            "mean_G": -4.566067468613957
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 0,
+            "success_rate": 0.0,
+            "judged_success_rate": 0.0,
+            "mean_G": -2.9671040022265194
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 5,
+            "success_rate": 0.3125,
+            "judged_success_rate": 0.3125,
+            "mean_G": -2.0125208846331843
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 5,
+            "success_rate": 0.3125,
+            "judged_success_rate": 0.3125,
+            "mean_G": -1.6537050998840246
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 6,
+            "success_rate": 0.375,
+            "judged_success_rate": 0.375,
+            "mean_G": -1.4059154297115823
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 6,
+            "success_rate": 0.375,
+            "judged_success_rate": 0.375,
+            "mean_G": -1.1713195358459065
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 7,
+            "success_rate": 0.4375,
+            "judged_success_rate": 0.4375,
+            "mean_G": -1.0803020243548263
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 7,
+            "success_rate": 0.4375,
+            "judged_success_rate": 0.4375,
+            "mean_G": -1.0710807774648927
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 7,
+            "success_rate": 0.4375,
+            "judged_success_rate": 0.4375,
+            "mean_G": -1.0300321596197923
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 7,
+            "success_rate": 0.4375,
+            "judged_success_rate": 0.4375,
+            "mean_G": -1.0173166557891402
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 7,
+            "success_rate": 0.4375,
+            "judged_success_rate": 0.4375,
+            "mean_G": -0.9664951855051109
+          },
+          {
+            "attempted": 16,
+            "judged": 16,
+            "censors": 0,
+            "successes": 7,
+            "success_rate": 0.4375,
+            "judged_success_rate": 0.4375,
+            "mean_G": -0.9938901983508195
+          }
+        ],
+        "segments": {
+          "T2-6": {
+            "attempted": 80,
+            "judged": 80,
+            "censors": 0,
+            "successes": 22,
+            "success_rate": 0.275,
+            "judged_success_rate": 0.275,
+            "mean_G": -1.8421129904602438
+          },
+          "T7-12": {
+            "attempted": 96,
+            "judged": 96,
+            "censors": 0,
+            "successes": 42,
+            "success_rate": 0.4375,
+            "judged_success_rate": 0.4375,
+            "mean_G": -1.0265195001807637
+          }
+        }
+      }
+    },
+    "overall": {
+      "gmp": {
+        "primary": {
+          "attempted": 352,
+          "judged": 352,
+          "censors": 0,
+          "successes": 0,
+          "success_rate": 0.0,
+          "judged_success_rate": 0.0,
+          "mean_G": -6.265259937957342
+        },
+        "all12": {
+          "attempted": 384,
+          "judged": 384,
+          "censors": 0,
+          "successes": 0,
+          "success_rate": 0.0,
+          "judged_success_rate": 0.0,
+          "mean_G": -6.382908712518588
+        },
+        "by_trial": [
+          {
+            "attempted": 32,
+            "judged": 32,
+            "censors": 0,
+            "successes": 0,
+            "success_rate": 0.0,
+            "judged_success_rate": 0.0,
+            "mean_G": -7.677045232692268
+          },
+          {
+            "attempted": 32,
+            "judged": 32,
+            "censors": 0,
+            "successes": 0,
+            "success_rate": 0.0,
+            "judged_success_rate": 0.0,
+            "mean_G": -7.181901030553152
+          },
+          {
+            "attempted": 32,
+            "judged": 32,
+            "censors": 0,
+            "successes": 0,
+            "success_rate": 0.0,
+            "judged_success_rate": 0.0,
+            "mean_G": -5.689854854106747
+          },
+          {
+            "attempted": 32,
+            "judged": 32,
+            "censors": 0,
+            "successes": 0,
+            "success_rate": 0.0,
+            "judged_success_rate": 0.0,
+            "mean_G": -5.931071304235884
+          },
+          {
+            "attempted": 32,
+            "judged": 32,
+            "censors": 0,
+            "successes": 0,
+            "success_rate": 0.0,
+            "judged_success_rate": 0.0,
+            "mean_G": -5.627674885959578
+          },
+          {
+            "attempted": 32,
+            "judged": 32,
+            "censors": 0,
+            "successes": 0,
+            "success_rate": 0.0,
+            "judged_success_rate": 0.0,
+            "mean_G": -6.380220395486301
+          },
+          {
+            "attempted": 32,
+            "judged": 32,
+            "censors": 0,
+            "successes": 0,
+            "success_rate": 0.0,
+            "judged_success_rate": 0.0,
+            "mean_G": -6.30158025638948
+          },
+          {
+            "attempted": 32,
+            "judged": 32,
+            "censors": 0,
+            "successes": 0,
+            "success_rate": 0.0,
+            "judged_success_rate": 0.0,
+            "mean_G": -6.250369926359328
+          },
+          {
+            "attempted": 32,
+            "judged": 32,
+            "censors": 0,
+            "successes": 0,
+            "success_rate": 0.0,
+            "judged_success_rate": 0.0,
+            "mean_G": -6.51328883366945
+          },
+          {
+            "attempted": 32,
+            "judged": 32,
+            "censors": 0,
+            "successes": 0,
+            "success_rate": 0.0,
+            "judged_success_rate": 0.0,
+            "mean_G": -6.3426139140256605
+          },
+          {
+            "attempted": 32,
+            "judged": 32,
+            "censors": 0,
+            "successes": 0,
+            "success_rate": 0.0,
+            "judged_success_rate": 0.0,
+            "mean_G": -6.34945936393441
+          },
+          {
+            "attempted": 32,
+            "judged": 32,
+            "censors": 0,
+            "successes": 0,
+            "success_rate": 0.0,
+            "judged_success_rate": 0.0,
+            "mean_G": -6.3498245528107855
+          }
+        ],
+        "segments": {
+          "T2-6": {
+            "attempted": 160,
+            "judged": 160,
+            "censors": 0,
+            "successes": 0,
+            "success_rate": 0.0,
+            "judged_success_rate": 0.0,
+            "mean_G": -6.1621444940683325
+          },
+          "T7-12": {
+            "attempted": 192,
+            "judged": 192,
+            "censors": 0,
+            "successes": 0,
+            "success_rate": 0.0,
+            "judged_success_rate": 0.0,
+            "mean_G": -6.351189474531519
+          }
+        }
+      },
+      "swap": {
+        "primary": {
+          "attempted": 352,
+          "judged": 352,
+          "censors": 0,
+          "successes": 90,
+          "success_rate": 0.2556818181818182,
+          "judged_success_rate": 0.2556818181818182,
+          "mean_G": -3.0405525660464745
+        },
+        "all12": {
+          "attempted": 384,
+          "judged": 384,
+          "censors": 0,
+          "successes": 90,
+          "success_rate": 0.234375,
+          "judged_success_rate": 0.234375,
+          "mean_G": -3.3685397093687968
+        },
+        "by_trial": [
+          {
+            "attempted": 32,
+            "judged": 32,
+            "censors": 0,
+            "successes": 0,
+            "success_rate": 0.0,
+            "judged_success_rate": 0.0,
+            "mean_G": -6.976398285914342
+          },
+          {
+            "attempted": 32,
+            "judged": 32,
+            "censors": 0,
+            "successes": 4,
+            "success_rate": 0.125,
+            "judged_success_rate": 0.125,
+            "mean_G": -4.668951287547141
+          },
+          {
+            "attempted": 32,
+            "judged": 32,
+            "censors": 0,
+            "successes": 8,
+            "success_rate": 0.25,
+            "judged_success_rate": 0.25,
+            "mean_G": -3.130244595226392
+          },
+          {
+            "attempted": 32,
+            "judged": 32,
+            "censors": 0,
+            "successes": 9,
+            "success_rate": 0.28125,
+            "judged_success_rate": 0.28125,
+            "mean_G": -2.8862813726029226
+          },
+          {
+            "attempted": 32,
+            "judged": 32,
+            "censors": 0,
+            "successes": 10,
+            "success_rate": 0.3125,
+            "judged_success_rate": 0.3125,
+            "mean_G": -2.9025949938647617
+          },
+          {
+            "attempted": 32,
+            "judged": 32,
+            "censors": 0,
+            "successes": 8,
+            "success_rate": 0.25,
+            "judged_success_rate": 0.25,
+            "mean_G": -2.860126499105423
+          },
+          {
+            "attempted": 32,
+            "judged": 32,
+            "censors": 0,
+            "successes": 8,
+            "success_rate": 0.25,
+            "judged_success_rate": 0.25,
+            "mean_G": -3.4099736708364095
+          },
+          {
+            "attempted": 32,
+            "judged": 32,
+            "censors": 0,
+            "successes": 9,
+            "success_rate": 0.28125,
+            "judged_success_rate": 0.28125,
+            "mean_G": -2.7178547668429287
+          },
+          {
+            "attempted": 32,
+            "judged": 32,
+            "censors": 0,
+            "successes": 9,
+            "success_rate": 0.28125,
+            "judged_success_rate": 0.28125,
+            "mean_G": -2.7424494209891135
+          },
+          {
+            "attempted": 32,
+            "judged": 32,
+            "censors": 0,
+            "successes": 9,
+            "success_rate": 0.28125,
+            "judged_success_rate": 0.28125,
+            "mean_G": -2.6390798718752024
+          },
+          {
+            "attempted": 32,
+            "judged": 32,
+            "censors": 0,
+            "successes": 8,
+            "success_rate": 0.25,
+            "judged_success_rate": 0.25,
+            "mean_G": -2.7556306277890363
+          },
+          {
+            "attempted": 32,
+            "judged": 32,
+            "censors": 0,
+            "successes": 8,
+            "success_rate": 0.25,
+            "judged_success_rate": 0.25,
+            "mean_G": -2.7328911198318897
+          }
+        ],
+        "segments": {
+          "T2-6": {
+            "attempted": 160,
+            "judged": 160,
+            "censors": 0,
+            "successes": 39,
+            "success_rate": 0.24375,
+            "judged_success_rate": 0.24375,
+            "mean_G": -3.2896397496693277
+          },
+          "T7-12": {
+            "attempted": 192,
+            "judged": 192,
+            "censors": 0,
+            "successes": 51,
+            "success_rate": 0.265625,
+            "judged_success_rate": 0.265625,
+            "mean_G": -2.83297991302743
+          }
+        }
+      },
+      "joint": {
+        "primary": {
+          "attempted": 352,
+          "judged": 352,
+          "censors": 0,
+          "successes": 85,
+          "success_rate": 0.24147727272727273,
+          "judged_success_rate": 0.24147727272727273,
+          "mean_G": -2.8714919757816912
+        },
+        "all12": {
+          "attempted": 384,
+          "judged": 384,
+          "censors": 0,
+          "successes": 85,
+          "success_rate": 0.22135416666666666,
+          "judged_success_rate": 0.22135416666666666,
+          "mean_G": -3.224272802357476
+        },
+        "by_trial": [
+          {
+            "attempted": 32,
+            "judged": 32,
+            "censors": 0,
+            "successes": 0,
+            "success_rate": 0.0,
+            "judged_success_rate": 0.0,
+            "mean_G": -7.10486189469111
+          },
+          {
+            "attempted": 32,
+            "judged": 32,
+            "censors": 0,
+            "successes": 3,
+            "success_rate": 0.09375,
+            "judged_success_rate": 0.09375,
+            "mean_G": -3.8567255860377063
+          },
+          {
+            "attempted": 32,
+            "judged": 32,
+            "censors": 0,
+            "successes": 9,
+            "success_rate": 0.28125,
+            "judged_success_rate": 0.28125,
+            "mean_G": -2.951613465105684
+          },
+          {
+            "attempted": 32,
+            "judged": 32,
+            "censors": 0,
+            "successes": 7,
+            "success_rate": 0.21875,
+            "judged_success_rate": 0.21875,
+            "mean_G": -2.611404732931568
+          },
+          {
+            "attempted": 32,
+            "judged": 32,
+            "censors": 0,
+            "successes": 8,
+            "success_rate": 0.25,
+            "judged_success_rate": 0.25,
+            "mean_G": -2.8501770061474225
+          },
+          {
+            "attempted": 32,
+            "judged": 32,
+            "censors": 0,
+            "successes": 7,
+            "success_rate": 0.21875,
+            "judged_success_rate": 0.21875,
+            "mean_G": -2.8181750126572847
+          },
+          {
+            "attempted": 32,
+            "judged": 32,
+            "censors": 0,
+            "successes": 9,
+            "success_rate": 0.28125,
+            "judged_success_rate": 0.28125,
+            "mean_G": -2.9620475110840507
+          },
+          {
+            "attempted": 32,
+            "judged": 32,
+            "censors": 0,
+            "successes": 8,
+            "success_rate": 0.25,
+            "judged_success_rate": 0.25,
+            "mean_G": -2.7320856660004678
+          },
+          {
+            "attempted": 32,
+            "judged": 32,
+            "censors": 0,
+            "successes": 8,
+            "success_rate": 0.25,
+            "judged_success_rate": 0.25,
+            "mean_G": -2.7759696166708543
+          },
+          {
+            "attempted": 32,
+            "judged": 32,
+            "censors": 0,
+            "successes": 9,
+            "success_rate": 0.28125,
+            "judged_success_rate": 0.28125,
+            "mean_G": -2.7011955157169645
+          },
+          {
+            "attempted": 32,
+            "judged": 32,
+            "censors": 0,
+            "successes": 10,
+            "success_rate": 0.3125,
+            "judged_success_rate": 0.3125,
+            "mean_G": -2.540600526715273
+          },
+          {
+            "attempted": 32,
+            "judged": 32,
+            "censors": 0,
+            "successes": 7,
+            "success_rate": 0.21875,
+            "judged_success_rate": 0.21875,
+            "mean_G": -2.786417094531328
+          }
+        ],
+        "segments": {
+          "T2-6": {
+            "attempted": 160,
+            "judged": 160,
+            "censors": 0,
+            "successes": 34,
+            "success_rate": 0.2125,
+            "judged_success_rate": 0.2125,
+            "mean_G": -3.017619160575933
+          },
+          "T7-12": {
+            "attempted": 192,
+            "judged": 192,
+            "censors": 0,
+            "successes": 51,
+            "success_rate": 0.265625,
+            "judged_success_rate": 0.265625,
+            "mean_G": -2.7497193217864897
+          }
+        }
+      },
+      "prediction_only": {
+        "primary": {
+          "attempted": 352,
+          "judged": 352,
+          "censors": 0,
+          "successes": 82,
+          "success_rate": 0.23295454545454544,
+          "judged_success_rate": 0.23295454545454544,
+          "mean_G": -2.981833367038691
+        },
+        "all12": {
+          "attempted": 384,
+          "judged": 384,
+          "censors": 0,
+          "successes": 82,
+          "success_rate": 0.21354166666666666,
+          "judged_success_rate": 0.21354166666666666,
+          "mean_G": -3.308501402481582
+        },
+        "by_trial": [
+          {
+            "attempted": 32,
+            "judged": 32,
+            "censors": 0,
+            "successes": 0,
+            "success_rate": 0.0,
+            "judged_success_rate": 0.0,
+            "mean_G": -6.901849792353379
+          },
+          {
+            "attempted": 32,
+            "judged": 32,
+            "censors": 0,
+            "successes": 0,
+            "success_rate": 0.0,
+            "judged_success_rate": 0.0,
+            "mean_G": -4.332866217246583
+          },
+          {
+            "attempted": 32,
+            "judged": 32,
+            "censors": 0,
+            "successes": 8,
+            "success_rate": 0.25,
+            "judged_success_rate": 0.25,
+            "mean_G": -3.1929274742151694
+          },
+          {
+            "attempted": 32,
+            "judged": 32,
+            "censors": 0,
+            "successes": 6,
+            "success_rate": 0.1875,
+            "judged_success_rate": 0.1875,
+            "mean_G": -3.1070466073566827
+          },
+          {
+            "attempted": 32,
+            "judged": 32,
+            "censors": 0,
+            "successes": 7,
+            "success_rate": 0.21875,
+            "judged_success_rate": 0.21875,
+            "mean_G": -2.9291022540262537
+          },
+          {
+            "attempted": 32,
+            "judged": 32,
+            "censors": 0,
+            "successes": 7,
+            "success_rate": 0.21875,
+            "judged_success_rate": 0.21875,
+            "mean_G": -2.925092502431177
+          },
+          {
+            "attempted": 32,
+            "judged": 32,
+            "censors": 0,
+            "successes": 10,
+            "success_rate": 0.3125,
+            "judged_success_rate": 0.3125,
+            "mean_G": -2.4185391026979177
+          },
+          {
+            "attempted": 32,
+            "judged": 32,
+            "censors": 0,
+            "successes": 8,
+            "success_rate": 0.25,
+            "judged_success_rate": 0.25,
+            "mean_G": -2.790732551252391
+          },
+          {
+            "attempted": 32,
+            "judged": 32,
+            "censors": 0,
+            "successes": 9,
+            "success_rate": 0.28125,
+            "judged_success_rate": 0.28125,
+            "mean_G": -2.6670158680319087
+          },
+          {
+            "attempted": 32,
+            "judged": 32,
+            "censors": 0,
+            "successes": 9,
+            "success_rate": 0.28125,
+            "judged_success_rate": 0.28125,
+            "mean_G": -2.9520573602501976
+          },
+          {
+            "attempted": 32,
+            "judged": 32,
+            "censors": 0,
+            "successes": 9,
+            "success_rate": 0.28125,
+            "judged_success_rate": 0.28125,
+            "mean_G": -2.752587123798002
+          },
+          {
+            "attempted": 32,
+            "judged": 32,
+            "censors": 0,
+            "successes": 9,
+            "success_rate": 0.28125,
+            "judged_success_rate": 0.28125,
+            "mean_G": -2.7321999761193196
+          }
+        ],
+        "segments": {
+          "T2-6": {
+            "attempted": 160,
+            "judged": 160,
+            "censors": 0,
+            "successes": 28,
+            "success_rate": 0.175,
+            "judged_success_rate": 0.175,
+            "mean_G": -3.2974070110551734
+          },
+          "T7-12": {
+            "attempted": 192,
+            "judged": 192,
+            "censors": 0,
+            "successes": 54,
+            "success_rate": 0.28125,
+            "judged_success_rate": 0.28125,
+            "mean_G": -2.7188553303582896
+          }
+        }
+      },
+      "adaptive": {
+        "primary": {
+          "attempted": 352,
+          "judged": 352,
+          "censors": 0,
+          "successes": 79,
+          "success_rate": 0.22443181818181818,
+          "judged_success_rate": 0.22443181818181818,
+          "mean_G": -3.0749818060900553
+        },
+        "all12": {
+          "attempted": 384,
+          "judged": 384,
+          "censors": 0,
+          "successes": 79,
+          "success_rate": 0.20572916666666666,
+          "judged_success_rate": 0.20572916666666666,
+          "mean_G": -3.396120708883984
+        },
+        "by_trial": [
+          {
+            "attempted": 32,
+            "judged": 32,
+            "censors": 0,
+            "successes": 0,
+            "success_rate": 0.0,
+            "judged_success_rate": 0.0,
+            "mean_G": -6.9286486396172045
+          },
+          {
+            "attempted": 32,
+            "judged": 32,
+            "censors": 0,
+            "successes": 1,
+            "success_rate": 0.03125,
+            "judged_success_rate": 0.03125,
+            "mean_G": -4.1273632874207316
+          },
+          {
+            "attempted": 32,
+            "judged": 32,
+            "censors": 0,
+            "successes": 6,
+            "success_rate": 0.1875,
+            "judged_success_rate": 0.1875,
+            "mean_G": -3.3489292817275502
+          },
+          {
+            "attempted": 32,
+            "judged": 32,
+            "censors": 0,
+            "successes": 6,
+            "success_rate": 0.1875,
+            "judged_success_rate": 0.1875,
+            "mean_G": -3.0360623740563666
+          },
+          {
+            "attempted": 32,
+            "judged": 32,
+            "censors": 0,
+            "successes": 7,
+            "success_rate": 0.21875,
+            "judged_success_rate": 0.21875,
+            "mean_G": -3.231373330011794
+          },
+          {
+            "attempted": 32,
+            "judged": 32,
+            "censors": 0,
+            "successes": 5,
+            "success_rate": 0.15625,
+            "judged_success_rate": 0.15625,
+            "mean_G": -3.217035287856377
+          },
+          {
+            "attempted": 32,
+            "judged": 32,
+            "censors": 0,
+            "successes": 10,
+            "success_rate": 0.3125,
+            "judged_success_rate": 0.3125,
+            "mean_G": -2.73422899675903
+          },
+          {
+            "attempted": 32,
+            "judged": 32,
+            "censors": 0,
+            "successes": 9,
+            "success_rate": 0.28125,
+            "judged_success_rate": 0.28125,
+            "mean_G": -2.9597230983219567
+          },
+          {
+            "attempted": 32,
+            "judged": 32,
+            "censors": 0,
+            "successes": 7,
+            "success_rate": 0.21875,
+            "judged_success_rate": 0.21875,
+            "mean_G": -3.139973332263713
+          },
+          {
+            "attempted": 32,
+            "judged": 32,
+            "censors": 0,
+            "successes": 9,
+            "success_rate": 0.28125,
+            "judged_success_rate": 0.28125,
+            "mean_G": -2.717589187587305
+          },
+          {
+            "attempted": 32,
+            "judged": 32,
+            "censors": 0,
+            "successes": 9,
+            "success_rate": 0.28125,
+            "judged_success_rate": 0.28125,
+            "mean_G": -2.8628643668377443
+          },
+          {
+            "attempted": 32,
+            "judged": 32,
+            "censors": 0,
+            "successes": 10,
+            "success_rate": 0.3125,
+            "judged_success_rate": 0.3125,
+            "mean_G": -2.4496573241480375
+          }
+        ],
+        "segments": {
+          "T2-6": {
+            "attempted": 160,
+            "judged": 160,
+            "censors": 0,
+            "successes": 25,
+            "success_rate": 0.15625,
+            "judged_success_rate": 0.15625,
+            "mean_G": -3.392152712214564
+          },
+          "T7-12": {
+            "attempted": 192,
+            "judged": 192,
+            "censors": 0,
+            "successes": 54,
+            "success_rate": 0.28125,
+            "judged_success_rate": 0.28125,
+            "mean_G": -2.8106727176529644
+          }
+        }
+      },
+      "aligned": {
+        "primary": {
+          "attempted": 352,
+          "judged": 352,
+          "censors": 0,
+          "successes": 79,
+          "success_rate": 0.22443181818181818,
+          "judged_success_rate": 0.22443181818181818,
+          "mean_G": -3.0610300759951645
+        },
+        "all12": {
+          "attempted": 384,
+          "judged": 384,
+          "censors": 0,
+          "successes": 79,
+          "success_rate": 0.20572916666666666,
+          "judged_success_rate": 0.20572916666666666,
+          "mean_G": -3.3801606214242237
+        },
+        "by_trial": [
+          {
+            "attempted": 32,
+            "judged": 32,
+            "censors": 0,
+            "successes": 0,
+            "success_rate": 0.0,
+            "judged_success_rate": 0.0,
+            "mean_G": -6.890596621143866
+          },
+          {
+            "attempted": 32,
+            "judged": 32,
+            "censors": 0,
+            "successes": 0,
+            "success_rate": 0.0,
+            "judged_success_rate": 0.0,
+            "mean_G": -4.400058844329118
+          },
+          {
+            "attempted": 32,
+            "judged": 32,
+            "censors": 0,
+            "successes": 10,
+            "success_rate": 0.3125,
+            "judged_success_rate": 0.3125,
+            "mean_G": -2.7637669727924337
+          },
+          {
+            "attempted": 32,
+            "judged": 32,
+            "censors": 0,
+            "successes": 8,
+            "success_rate": 0.25,
+            "judged_success_rate": 0.25,
+            "mean_G": -2.8153701585840905
+          },
+          {
+            "attempted": 32,
+            "judged": 32,
+            "censors": 0,
+            "successes": 8,
+            "success_rate": 0.25,
+            "judged_success_rate": 0.25,
+            "mean_G": -2.9806388389741834
+          },
+          {
+            "attempted": 32,
+            "judged": 32,
+            "censors": 0,
+            "successes": 7,
+            "success_rate": 0.21875,
+            "judged_success_rate": 0.21875,
+            "mean_G": -2.8118974672410877
+          },
+          {
+            "attempted": 32,
+            "judged": 32,
+            "censors": 0,
+            "successes": 8,
+            "success_rate": 0.25,
+            "judged_success_rate": 0.25,
+            "mean_G": -2.951463352745946
+          },
+          {
+            "attempted": 32,
+            "judged": 32,
+            "censors": 0,
+            "successes": 8,
+            "success_rate": 0.25,
+            "judged_success_rate": 0.25,
+            "mean_G": -3.4398557278394053
+          },
+          {
+            "attempted": 32,
+            "judged": 32,
+            "censors": 0,
+            "successes": 7,
+            "success_rate": 0.21875,
+            "judged_success_rate": 0.21875,
+            "mean_G": -2.9817893045902575
+          },
+          {
+            "attempted": 32,
+            "judged": 32,
+            "censors": 0,
+            "successes": 8,
+            "success_rate": 0.25,
+            "judged_success_rate": 0.25,
+            "mean_G": -2.959499639738591
+          },
+          {
+            "attempted": 32,
+            "judged": 32,
+            "censors": 0,
+            "successes": 8,
+            "success_rate": 0.25,
+            "judged_success_rate": 0.25,
+            "mean_G": -2.688984158406145
+          },
+          {
+            "attempted": 32,
+            "judged": 32,
+            "censors": 0,
+            "successes": 7,
+            "success_rate": 0.21875,
+            "judged_success_rate": 0.21875,
+            "mean_G": -2.8780063707055534
+          }
+        ],
+        "segments": {
+          "T2-6": {
+            "attempted": 160,
+            "judged": 160,
+            "censors": 0,
+            "successes": 33,
+            "success_rate": 0.20625,
+            "judged_success_rate": 0.20625,
+            "mean_G": -3.1543464563841823
+          },
+          "T7-12": {
+            "attempted": 192,
+            "judged": 192,
+            "censors": 0,
+            "successes": 46,
+            "success_rate": 0.23958333333333334,
+            "judged_success_rate": 0.23958333333333334,
+            "mean_G": -2.9832664256709833
+          }
+        }
+      }
+    }
+  },
+  "paired": {
+    "low": {
+      "gmp-swap": {
+        "return_gain_complete_tasks": {
+          "mean": -3.231257344173362,
+          "CI95": [
+            -5.284582892644435,
+            -1.1129591940794752
+          ],
+          "tasks": 16
+        },
+        "excluded_tasks": 0,
+        "attempted_success_gain": {
+          "mean": -0.13636363636363635,
+          "CI95": [
+            -0.24431818181818182,
+            -0.045454545454545456
+          ],
+          "tasks": 16
+        },
+        "interval": "Task cluster percentile bootstrap, 10000 draws; unadjusted"
+      },
+      "gmp-joint": {
+        "return_gain_complete_tasks": {
+          "mean": -3.344179854111861,
+          "CI95": [
+            -5.402838412991922,
+            -1.165815086335255
+          ],
+          "tasks": 16
+        },
+        "excluded_tasks": 0,
+        "attempted_success_gain": {
+          "mean": -0.10795454545454547,
+          "CI95": [
+            -0.1875,
+            -0.03977272727272727
+          ],
+          "tasks": 16
+        },
+        "interval": "Task cluster percentile bootstrap, 10000 draws; unadjusted"
+      },
+      "gmp-prediction_only": {
+        "return_gain_complete_tasks": {
+          "mean": -3.1643995179571913,
+          "CI95": [
+            -5.127663604938748,
+            -1.0585729611968728
+          ],
+          "tasks": 16
+        },
+        "excluded_tasks": 0,
+        "attempted_success_gain": {
+          "mean": -0.10227272727272727,
+          "CI95": [
+            -0.19886363636363635,
+            -0.02840909090909091
+          ],
+          "tasks": 16
+        },
+        "interval": "Task cluster percentile bootstrap, 10000 draws; unadjusted"
+      },
+      "gmp-adaptive": {
+        "return_gain_complete_tasks": {
+          "mean": -2.992769804778448,
+          "CI95": [
+            -4.89544924955971,
+            -0.9736274077402007
+          ],
+          "tasks": 16
+        },
+        "excluded_tasks": 0,
+        "attempted_success_gain": {
+          "mean": -0.09090909090909091,
+          "CI95": [
+            -0.17045454545454547,
+            -0.028409090909090908
+          ],
+          "tasks": 16
+        },
+        "interval": "Task cluster percentile bootstrap, 10000 draws; unadjusted"
+      },
+      "gmp-aligned": {
+        "return_gain_complete_tasks": {
+          "mean": -3.0251403212503134,
+          "CI95": [
+            -4.897784178091146,
+            -0.9821089639158408
+          ],
+          "tasks": 16
+        },
+        "excluded_tasks": 0,
+        "attempted_success_gain": {
+          "mean": -0.08522727272727273,
+          "CI95": [
+            -0.1534090909090909,
+            -0.028409090909090908
+          ],
+          "tasks": 16
+        },
+        "interval": "Task cluster percentile bootstrap, 10000 draws; unadjusted"
+      }
+    },
+    "high": {
+      "gmp-swap": {
+        "return_gain_complete_tasks": {
+          "mean": -3.2181573996483754,
+          "CI95": [
+            -4.067457526250359,
+            -2.3491663344016187
+          ],
+          "tasks": 16
+        },
+        "excluded_tasks": 0,
+        "attempted_success_gain": {
+          "mean": -0.375,
+          "CI95": [
+            -0.5909090909090909,
+            -0.16477272727272727
+          ],
+          "tasks": 16
+        },
+        "interval": "Task cluster percentile bootstrap, 10000 draws; unadjusted"
+      },
+      "gmp-joint": {
+        "return_gain_complete_tasks": {
+          "mean": -3.4433560702394437,
+          "CI95": [
+            -4.236506570999734,
+            -2.6372816583082583
+          ],
+          "tasks": 16
+        },
+        "excluded_tasks": 0,
+        "attempted_success_gain": {
+          "mean": -0.375,
+          "CI95": [
+            -0.5965909090909092,
+            -0.15909090909090912
+          ],
+          "tasks": 16
+        },
+        "interval": "Task cluster percentile bootstrap, 10000 draws; unadjusted"
+      },
+      "gmp-prediction_only": {
+        "return_gain_complete_tasks": {
+          "mean": -3.402453623880113,
+          "CI95": [
+            -4.201244169870912,
+            -2.618434842944384
+          ],
+          "tasks": 16
+        },
+        "excluded_tasks": 0,
+        "attempted_success_gain": {
+          "mean": -0.36363636363636365,
+          "CI95": [
+            -0.5795454545454545,
+            -0.17045454545454544
+          ],
+          "tasks": 16
+        },
+        "interval": "Task cluster percentile bootstrap, 10000 draws; unadjusted"
+      },
+      "gmp-adaptive": {
+        "return_gain_complete_tasks": {
+          "mean": -3.387786458956129,
+          "CI95": [
+            -4.178414270680631,
+            -2.589677121555208
+          ],
+          "tasks": 16
+        },
+        "excluded_tasks": 0,
+        "attempted_success_gain": {
+          "mean": -0.3579545454545454,
+          "CI95": [
+            -0.5681818181818181,
+            -0.1590909090909091
+          ],
+          "tasks": 16
+        },
+        "interval": "Task cluster percentile bootstrap, 10000 draws; unadjusted"
+      },
+      "gmp-aligned": {
+        "return_gain_complete_tasks": {
+          "mean": -3.383319402674044,
+          "CI95": [
+            -4.17509924616716,
+            -2.5722214716915013
+          ],
+          "tasks": 16
+        },
+        "excluded_tasks": 0,
+        "attempted_success_gain": {
+          "mean": -0.36363636363636365,
+          "CI95": [
+            -0.5681818181818181,
+            -0.1590909090909091
+          ],
+          "tasks": 16
+        },
+        "interval": "Task cluster percentile bootstrap, 10000 draws; unadjusted"
+      }
+    },
+    "overall": {
+      "gmp-swap": {
+        "return_gain_complete_tasks": {
+          "mean": -3.2247073719108688,
+          "CI95": [
+            -4.329360374412372,
+            -2.082879416268272
+          ],
+          "tasks": 32
+        },
+        "excluded_tasks": 0,
+        "attempted_success_gain": {
+          "mean": -0.2556818181818182,
+          "CI95": [
+            -0.38636363636363635,
+            -0.1335227272727273
+          ],
+          "tasks": 32
+        },
+        "interval": "Task cluster percentile bootstrap, 10000 draws; unadjusted"
+      },
+      "gmp-joint": {
+        "return_gain_complete_tasks": {
+          "mean": -3.3937679621756525,
+          "CI95": [
+            -4.471951773052359,
+            -2.241631099774246
+          ],
+          "tasks": 32
+        },
+        "excluded_tasks": 0,
+        "attempted_success_gain": {
+          "mean": -0.2414772727272727,
+          "CI95": [
+            -0.3693181818181818,
+            -0.125
+          ],
+          "tasks": 32
+        },
+        "interval": "Task cluster percentile bootstrap, 10000 draws; unadjusted"
+      },
+      "gmp-prediction_only": {
+        "return_gain_complete_tasks": {
+          "mean": -3.2834265709186523,
+          "CI95": [
+            -4.32412464286909,
+            -2.149175181306723
+          ],
+          "tasks": 32
+        },
+        "excluded_tasks": 0,
+        "attempted_success_gain": {
+          "mean": -0.23295454545454544,
+          "CI95": [
+            -0.355184659090909,
+            -0.11931818181818182
+          ],
+          "tasks": 32
+        },
+        "interval": "Task cluster percentile bootstrap, 10000 draws; unadjusted"
+      },
+      "gmp-adaptive": {
+        "return_gain_complete_tasks": {
+          "mean": -3.1902781318672884,
+          "CI95": [
+            -4.2387560147753085,
+            -2.105661977332709
+          ],
+          "tasks": 32
+        },
+        "excluded_tasks": 0,
+        "attempted_success_gain": {
+          "mean": -0.22443181818181818,
+          "CI95": [
+            -0.34659090909090906,
+            -0.11363636363636363
+          ],
+          "tasks": 32
+        },
+        "interval": "Task cluster percentile bootstrap, 10000 draws; unadjusted"
+      },
+      "gmp-aligned": {
+        "return_gain_complete_tasks": {
+          "mean": -3.2042298619621787,
+          "CI95": [
+            -4.262577383882821,
+            -2.0983004807570813
+          ],
+          "tasks": 32
+        },
+        "excluded_tasks": 0,
+        "attempted_success_gain": {
+          "mean": -0.22443181818181818,
+          "CI95": [
+            -0.3494318181818181,
+            -0.11363636363636363
+          ],
+          "tasks": 32
+        },
+        "interval": "Task cluster percentile bootstrap, 10000 draws; unadjusted"
+      }
+    }
+  },
+  "memory": {
+    "low": {
+      "decisions": 2241,
+      "history_attention_enabled": 960,
+      "history_nonempty": 2225,
+      "history_used_with_nonempty": 944
+    },
+    "high": {
+      "decisions": 1164,
+      "history_attention_enabled": 769,
+      "history_nonempty": 1148,
+      "history_used_with_nonempty": 753
+    }
+  },
+  "censors": 0,
+  "scope": "Official pretrained gated diffusion policy; learned memory retained over repeated matched physical resets; previous five methods reused without simulation",
+  "limitations": [
+    "One diffusion seed per task; this comparison does not isolate memory causality",
+    "GMP uses original absolute action decoder; previous methods use residual controllers",
+    "Censored G is missing; complete-task return intervals exclude tasks with any primary censor",
+    "Unadjusted task bootstrap; overall pooling uses task resampling rather than stratification"
+  ]
+}

@@ -1,0 +1,5 @@
+# Official GMP OOD audit completion supplement v190
+
+Preserve frozen v187/v188/v189sources, logs and all384production records. v189full replay passed the model/decoder/control checks for each worker's first twelve-trial task, then failed its final task-history lookup because its local raw-action array shadowed the enclosing raw-task dictionary. Rename only that local variable to raw_action. Repeat complete unchanged384inference/native audits, then the original eight physical replays, fixed scientific figures and analysis. Bind frozen production source and this supplement. Archive preserves all rejected reviewer versions. No collection rerun, extra policy slot, training or ID task.
+
+The accepted decoder reconstructs all16masked poses and NumPy smoothing bit-exactly. v187/v188reviewer formula corrections are retained. Actual policy actions throughout production are from the unchanged original upstream decoder. All previous-method outcomes remain byte-exact. Cached official checkpoint binary remains externally hash/revision bound.

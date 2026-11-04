@@ -1,0 +1,18 @@
+# Evaluation only: top four world-gradient methods plus swap, 50% friction OOD
+
+2026-10-13 user request: select the top four completed methods, evaluate low friction reaching0.0025 and high friction reaching0.015+0.0075=0.0225; include no in-distribution tasks and do no training.
+
+Selection uses the completed v181 primary trials2–12 ranking, before OOD outcomes. Success and meanG rankings agree: joint shared-memory, prediction-only shared-memory, adaptive direct-world, gradient-aligned macro-Q. Fixed accepted checkpoints only. The user subsequently added original swap as a fifth baseline. No MC-only, frozen-memory, BASE or in-distribution evaluation arm.
+
+Thirty-two fresh matched broad tasks:16low [0.0025,0.005),16high (0.015,0.0225]. The first task of each band is exactly the requested outer boundary0.0025/0.0225; fifteen other frictions per band are sampled uniformly with a declared fixed seed. All task seeds are fresh. Independent uniform base speed in[.247,.435]m/s, identical across five methods and all twelve trials of each task. No outcome-based near-success selection or calibration. No in-distribution fixture.
+
+Twelve physical trials per task/method, memories persistent within task, fresh at each new task, matched physical snapshots and original controller limits. Actor, critic, world/value global weights and TRAIN feature scales stay fixed; only each method's standard causal task-private TTT memory updates from real observations are enabled. No optimizer, fitting, noise, heldout tuning, new checkpoint selection or modified policy limits. PrimaryT2–12; report low/high separately, overall equally weighted, bytrial and lateT7–12.
+
+Production budget32×5×12=1,920native trials plus five OOD fixtures. Native judgment required; early reset/time/control cutoffs disabled. Stop and preserve unexpected failures rather than censor away bad outcomes or replace tasks. Independent full causal/controller/actor/private-memory audit and twenty physical command replays, selected at the two boundary tasks ×five methods ×trials2/12. Task-paired10,000bootstrap CIs for all ten method pairs, bands separate as well as pooled; exploratory intervals not corrected for ten comparisons.
+
+Deliver frozen protocol/source, actual native outcomes, audited classic trajectories (two predetermined tasks per band/method,20graphs with12finalG annotations), scientific aggregate plots, local source/raw/checkpoint archive verification, results report and current README/work/INDEX. All research execution/analysis/plots on c1d3019784aa via compute.sh. No retraining and no in-distribution simulation anywhere in this run.
+
+
+## Parallel execution supplement v186
+
+The remaining independent tasks and native audits use four disjoint compute processes (taskID modulo4), preserving the exact32task specs, snapshots for completed tasks, checkpoint endpoints, base speeds and twelve-trial histories. Serialv185 is stopped only at a complete task boundary: budget equals5fixtures+60×completed tasks, verified again while its process group is stopped. No interrupted policy attempt. Every completed raw file is copied byte-exact and bound; no source/output snapshot is edited or relocated. No new fixture, model fit or task replacement. New tasks retain their declared seed/friction/speed; each worker has private native environment, memories and budget. Merge requires disjoint taskIDs, all1920outcomes, inherited5fixtures and unchanged parent hashes. Four disjoint full native audits merge with raw/source bindings; independent20physical replays and classic export audits remain required. The old partial pipeline, sources, logs, stop receipt and accepted prefix are preserved in delivery.
