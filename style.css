@@ -7,3 +7,5 @@
 .idea-strip,.problem-statement{padding:23px 26px;background:#edf3fa;border-left:3px solid var(--blue);border-radius:0 8px 8px 0;margin:27px 0}.idea-strip p,.problem-statement p{font-size:15px;color:#495467;margin:10px 0 0}.problem-statement h3{margin:8px 0 12px}.idea-strip .small-label{color:var(--blue)}
 
 .chinese-name{display:inline-block;font-size:.55em;letter-spacing:0;font-weight:500;color:var(--muted);margin-left:12px;vertical-align:middle}@media(max-width:760px){.chinese-name{margin-left:9px}}
+
+.research-directions{grid-template-columns:repeat(2,minmax(0,1fr))}.research-directions .interest:nth-child(4){border-color:var(--blue)}.research-direction-detail{margin-top:30px;padding:24px 28px;background:white;border:1px solid var(--line);border-left:3px solid var(--blue);border-radius:0 8px 8px 0}.research-direction-detail h3{font-size:23px;margin-bottom:17px}.research-direction-detail p:last-child{margin-bottom:0}@media(max-width:760px){.research-directions{grid-template-columns:1fr}.research-direction-detail{padding:21px}}
