@@ -9,3 +9,15 @@
 .chinese-name{display:inline-block;font-size:.55em;letter-spacing:0;font-weight:500;color:var(--muted);margin-left:12px;vertical-align:middle}@media(max-width:760px){.chinese-name{margin-left:9px}}
 
 .research-directions{grid-template-columns:repeat(2,minmax(0,1fr))}.research-directions .interest:nth-child(4){border-color:var(--blue)}.research-direction-detail{margin-top:30px;padding:24px 28px;background:white;border:1px solid var(--line);border-left:3px solid var(--blue);border-radius:0 8px 8px 0}.research-direction-detail h3{font-size:23px;margin-bottom:17px}.research-direction-detail p:last-child{margin-bottom:0}@media(max-width:760px){.research-directions{grid-template-columns:1fr}.research-direction-detail{padding:21px}}
+
+/* Native, keyboard-accessible result controls; evidence is visible on first visit. */
+.results-disclosure{margin:34px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:18px 0}
+.results-disclosure>summary{width:fit-content;cursor:pointer;color:var(--blue);font-weight:650;font-size:16px;padding:5px 2px}
+.results-disclosure>summary:focus-visible{outline:3px solid var(--orange);outline-offset:4px;border-radius:3px}
+.results-hide,.results-disclosure[open]>summary .results-show{display:none}
+.results-disclosure[open]>summary .results-hide{display:inline}
+.results-content{padding-top:12px}
+.results-content>.spaced:first-child{margin-top:12px}
+.results-content>.project-results:first-child{margin-top:15px}
+.cv-preview{display:block;width:100%;height:auto;border:1px solid var(--line);border-radius:8px;background:white;margin:30px auto 0}
+.bio{max-width:900px}
